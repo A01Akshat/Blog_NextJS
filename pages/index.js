@@ -14,10 +14,10 @@ const index = () => {
       <title>HEADER</title>
     </Hea>
     
-    
-    <h1 className={idx.h1}>HELLO CODING</h1>
-    <img src="/homeimg.jfif" width={500} height={200} className={idx.img}></img>
-    <Link href=''><h1 className={idx.blg}>A BLOG FOR CODING ENTHUSIAST</h1></Link>
+  
+    <h1 className=" text-center text-red-900 text-2xl  font-bold">HELLO CODING</h1>
+    <img src="/homeimg.jfif" fill className="my-[20px] h-[400px] sm:mx-auto  md: max-h-60  w-96 lg:max-h-60  w-96 " ></img>
+    <Link href=''><h1 className="my-[20px] text-center text-cyan-800 sm:">A BLOG FOR CODING ENTHUSIAST</h1></Link>
    
 
   </div>
